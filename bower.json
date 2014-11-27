@@ -1,9 +1,9 @@
 {
-  "name": "wordpress-bootstrap",
+  "name": "canvas",
   "version": "3.3.1",
-  "homepage": "https://github.com/320press/wordpress-bootstrap",
+  "homepage": "https://github.com/jbutkowski/canvas",
   "authors": [
-    "chrisbarnes <barnes.chris@gmail.com>"
+    "Justin Butkowski jbutkowski@gmail.com>"
   ],
   "description": "A simple WordPress theme based on Bootstrap.",
   "moduleType": [

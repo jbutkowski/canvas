@@ -18,14 +18,14 @@ ________
 
 We’ve built the WP Bootstrap theme so that it could be used as-is as a very basic theme or as a starting point for theme developers. It uses v3.3.1 of Bootstrap.
 
-WP-Bootstrap uses grunt as a task manager to help aid development. Check out the gruntfile.js file for more detail on the default tasks. Canvas comes with the livereload, less, grunticon and more tasks out of the box. 
+Canvas uses grunt as a task manager to help aid development. Check out the gruntfile.js file for more detail on the default tasks. Canvas comes with the livereload, less, grunticon and more tasks out of the box. 
 
 Watch or star this project to keep up with its progress.
 
 Multi-Lingual
 _____________
 
-WP-Bootstrap is translated in 7 languages - Spanish, French, Portuguese, Italian, Dutch, Swedish and German. 
+Canvas is translated in 7 languages - Spanish, French, Portuguese, Italian, Dutch, Swedish and German. 
 
 Page Templates
 ______________

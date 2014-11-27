@@ -35,36 +35,74 @@
 	
 	<body <?php body_class(); ?>>
 				
-		<header role="banner">
+		<header class="header" data-stellar-background-ratio="0.5" id="home" role="banner">
+			<div class="overlay-layer">
 				
-			<div class="navbar navbar-default navbar-fixed-top">
-				<div class="container">
-          
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-
-						<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
-					</div>
-
-					<div class="collapse navbar-collapse navbar-responsive-collapse">
-						<?php canvas_main_nav(); // Adjust using Menus in Wordpress Admin ?>
-
-						<?php //if(of_get_option('search_bar', '1')) {?>
-						<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-							<div class="form-group">
-								<input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search','canvas'); ?>">
-							</div>
-						</form>
-						<?php //} ?>
-					</div>
-
-				</div> <!-- end .container -->
-			</div> <!-- end .navbar -->
+				<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation appear-on-scroll" role="navigation">
 		
+					<div class="navbar navbar-inverse navbar-fixed-top">
+						<div class="container">
+
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+
+								<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
+							</div>
+
+							<div class="collapse navbar-collapse navbar-responsive-collapse">
+								<?php canvas_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+
+								<?php //if(of_get_option('search_bar', '1')) {?>
+								<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+									<div class="form-group">
+										<input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search','canvas'); ?>">
+									</div>
+								</form>
+								<?php //} ?>
+							</div>
+
+						</div> <!-- end .container -->
+					</div> <!-- end .navbar -->
+				</div>
+			<!-- CONTAINER -->
+      <div class="container">
+
+				<!-- ONLY LOGO ON HEADER -->
+					<div class="only-logo">
+						<div class="navbar">
+							<div class="navbar-header">
+								<h1>ADOMA</h1>
+							</div>
+						</div>
+					</div>
+          
+          <!-- /END ONLY LOGO ON HEADER -->
+					<div class="row">
+						<div class="col-md-12">
+
+							<!-- HEADING AND BUTTONS -->
+							<div class="intro-section">
+
+								<!-- WELCOM MESSAGE -->
+								<h1 class="intro white-text">Simple, Reliable and Awesome.</h1>
+								<h5 class="white-text">Tablet publishing HTML5 mobile first really simple syndication meetups</h5>
+
+								<!-- BUTTON -->
+								<div class="button">
+									<a href="#section11" class="btn btn-primary white-button inpage-scroll">Get Started</a>
+								</div> <!-- /END BUTTON -->
+
+								</div> <!-- /END HEADNING AND BUTTONS -->
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
 		</header> <!-- end header -->
 		
 		<div class="container">

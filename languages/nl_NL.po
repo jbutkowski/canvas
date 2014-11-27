@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: wp-bootstrap\n"
+"Project-Id-Version: Canvas\n"
 "POT-Creation-Date: 2014-01-29 18:43+0100\n"
 "PO-Revision-Date: 2014-01-29 19:03+0100\n"
 "Last-Translator: Punch Creative <mail@punchcreative>\n"
